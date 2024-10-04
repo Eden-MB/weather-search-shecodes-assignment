@@ -61,6 +61,12 @@ export default function App() {
       </div>
     );
   } else {
-    return form;
+    return (
+      <div>
+        {form}
+        <p>This project was coded by <strong>Eden</strong> and is a open-sourced on <strong><a href="https://github.com/Eden-MB/react-weather-app-shecodes/tree/main/src" target="_blank">GitHub and hosted on Netlify</a></strong></p>
+
+      </div>
+    )
   }
 }
